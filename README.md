@@ -1,0 +1,2 @@
+# Comparative Analysis of Fashion MNIST Models: Effects of Hidden Layer Size and Regularization Techniques
+Train two models using the Fashion MNIST dataset for 40 epochs. The first model employs a single hidden layer with ReLU activation comprising 128 nodes. It doesn't involve any regularization or dropout techniques. The second model utilizes a single hidden layer with ReLU activation and 48 nodes. It incorporates L2 regularization with a coefficient of λ = 0.0001 and dropout with a rate of 0.2 specifically applied at the hidden layer.
